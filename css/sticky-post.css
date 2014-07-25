@@ -1,0 +1,55 @@
+ul.cpw {
+	list-style-type: none;
+	margin: 0 !important;
+}
+.cpw-post-thumbnail {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;	
+}
+.template-right .cpw-post-thumbnail {
+	right: 0;
+	left: auto;
+}
+.template-block .cpw-post-thumbnail {
+	position: relative;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	top: 0;
+}
+.cpw-post-info {
+    display: block;
+}
+ul.cpw li {
+	clear: both;
+	margin-bottom: 10px;
+	list-style-type: none;
+	margin-left: 0;
+	position: relative;
+	padding:0;
+	background: none;
+}
+
+/* Custom Post Default Settings */
+.cpw-title {
+	display: block;
+}
+.cpw-date {
+    background: url("../images/date.png") no-repeat scroll 0 0 transparent;
+    color: #555555;
+    font-size: 11px;
+    padding-left: 20px;
+	margin-right: 10px;
+}
+.cpw-comments {
+    background: url("../images/comments.png") no-repeat scroll 0 0 transparent;
+    font-size: 11px;
+    padding-left: 20px;
+}
+.clear{
+	clear:both
+}
